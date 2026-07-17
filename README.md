@@ -6,7 +6,7 @@ ICS calendar feeds for Capitol Theatre / BG Horror Club screenings.
 
 | Calendar | URL | Description |
 |----------|-----|-------------|
-| Movie Tracker | `https://PerplexingPerfectionist.github.io/calendars/movie-tracker.ics` | Upcoming Capitol Theatre & BG Horror Club screenings |
+| Movie Tracker | `https://PerplexingPerfectionist.github.io/CalendarFeed/calendars/movie-tracker.ics` | Upcoming Capitol Theatre & BG Horror Club screenings |
 
 ## Subscribing in Google Calendar
 
