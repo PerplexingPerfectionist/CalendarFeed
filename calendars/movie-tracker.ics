@@ -24,49 +24,41 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:raiders-lost-ark-45th-20260717@capitol-bghorror
-DTSTART;TZID=America/Chicago:20260717T190000
-DTEND;TZID=America/Chicago:20260717T210000
-SUMMARY:Raiders of the Lost Ark – 45th Anniversary
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
-UID:videodrome-20260722@capitol-bghorror
-DTSTART;TZID=America/Chicago:20260722T183000
-DTEND;TZID=America/Chicago:20260722T203000
-SUMMARY:Videodrome
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
-UID:evil-dead-horrorclub-20260802@capitol-bghorror
-DTSTART;TZID=America/Chicago:20260802T190000
-DTEND;TZID=America/Chicago:20260802T210000
+UID:evil-dead-with-bg-horror-club-20270802@capitol-bghorror
+DTSTART;TZID=America/Chicago:20270802T110000
+DTEND;TZID=America/Chicago:20270802T130000
 SUMMARY:Evil Dead with BG Horror Club
-DESCRIPTION:BG Horror Club screening at Capitol Theatre\nSource: BG Horror Club
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
 BEGIN:VEVENT
 UID:the-matrix-20260821@capitol-bghorror
-DTSTART;TZID=America/Chicago:20260821T190000
-DTEND;TZID=America/Chicago:20260821T210000
+DTSTART;TZID=America/Chicago:20260821T110000
+DTEND;TZID=America/Chicago:20260821T130000
 SUMMARY:The Matrix
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
 BEGIN:VEVENT
-UID:fight-club-laray-mayfield-20260826@capitol-bghorror
-DTSTART;TZID=America/Chicago:20260826T183000
-DTEND;TZID=America/Chicago:20260826T203000
+UID:fight-club-with-casting-director-laray-m-20260826@capitol-bghorror
+DTSTART;TZID=America/Chicago:20260826T103000
+DTEND;TZID=America/Chicago:20260826T123000
 SUMMARY:Fight Club with Casting Director Laray Mayfield
-DESCRIPTION:Capitol Theatre screening with special guest\nSource: Capitol Theatre calendar
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:night-of-the-living-dead-1990-with-bg-ho-20260908@capitol-bghorror
+DTSTART;TZID=America/Chicago:20260908T110000
+DTEND;TZID=America/Chicago:20260908T130000
+SUMMARY:Night of the Living Dead (1990) with BG Horror Club
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
 BEGIN:VEVENT
 UID:who-framed-roger-rabbit-20260914@capitol-bghorror
-DTSTART;TZID=America/Chicago:20260914T183000
-DTEND;TZID=America/Chicago:20260914T203000
+DTSTART;TZID=America/Chicago:20260914T103000
+DTEND;TZID=America/Chicago:20260914T123000
 SUMMARY:Who Framed Roger Rabbit
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
