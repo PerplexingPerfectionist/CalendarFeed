@@ -24,14 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:evil-dead-with-bg-horror-club-20270802@capitol-bghorror
-DTSTART;TZID=America/Chicago:20270802T110000
-DTEND;TZID=America/Chicago:20270802T130000
-SUMMARY:Evil Dead with BG Horror Club
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
 UID:the-matrix-20260821@capitol-bghorror
 DTSTART;TZID=America/Chicago:20260821T110000
 DTEND;TZID=America/Chicago:20260821T130000
@@ -44,6 +36,14 @@ UID:fight-club-with-casting-director-laray-m-20260826@capitol-bghorror
 DTSTART;TZID=America/Chicago:20260826T103000
 DTEND;TZID=America/Chicago:20260826T123000
 SUMMARY:Fight Club with Casting Director Laray Mayfield
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:night-of-the-living-dead-1990-with-bg-ho-20260908@capitol-bghorror
+DTSTART;TZID=America/Chicago:20260908T110000
+DTEND;TZID=America/Chicago:20260908T130000
+SUMMARY:Night of the Living Dead (1990) with BG Horror Club
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
