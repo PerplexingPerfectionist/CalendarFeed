@@ -48,10 +48,10 @@ DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
 BEGIN:VEVENT
-UID:who-framed-roger-rabbit-20260914@capitol-bghorror
+UID:who-framed-roger-rabbit-subtitled-20260914@capitol-bghorror
 DTSTART;TZID=America/Chicago:20260914T103000
 DTEND;TZID=America/Chicago:20260914T123000
-SUMMARY:Who Framed Roger Rabbit
+SUMMARY:Who Framed Roger Rabbit? (Subtitled)
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
