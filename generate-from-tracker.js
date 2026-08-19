@@ -13,10 +13,15 @@ function escapeIcs(str) {
     .replace(/\n/g, '\\n');
 }
 
-function uidFor(title, date) {
+function uidFor(title, year, month, day) {
   const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').substring(0, 40);
-  const d = new Date(date).toISOString().slice(0, 10).replace(/-/g, '');
+  const d = `${year}${String(month + 1).padStart(2, '0')}${String(day).padStart(2, '0')}`;
   return `${slug}-${d}@capitol-bghorror`;
+}
+
+function formatIcsDateTime(year, month, day, hour, minute) {
+  const pad = (n) => String(n).padStart(2, '0');
+  return `${year}${pad(month + 1)}${pad(day)}T${pad(hour)}${pad(minute)}00`;
 }
 
 function parseTracker(md) {
@@ -79,7 +84,7 @@ function parseDateTime(dateStr, timeStr) {
     d.setFullYear(year + 1);
   }
   
-  return d;
+  return { year: d.getFullYear(), month, day, hour, minute, dateObj: d };
 }
 
 function generateIcs(events) {
@@ -112,18 +117,20 @@ function generateIcs(events) {
   ];
 
   for (const ev of events) {
-    const start = parseDateTime(ev.dateStr, ev.timeStr);
-    if (!start) {
+    const parsed = parseDateTime(ev.dateStr, ev.timeStr);
+    if (!parsed) {
       console.warn(`Could not parse date/time for: ${ev.movie}`);
       continue;
     }
     
-    // Default 2 hour runtime if unknown
-    const end = new Date(start.getTime() + 2 * 60 * 60 * 1000);
+    const { year, month, day, hour, minute, dateObj } = parsed;
     
-    const uid = uidFor(ev.movie, start);
-    const dtStart = start.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z/, 'Z');
-    const dtEnd = end.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z/, 'Z');
+    // Default 2 hour runtime if unknown
+    const endHour = hour + 2;
+    
+    const uid = uidFor(ev.movie, year, month, day);
+    const dtStart = formatIcsDateTime(year, month, day, hour, minute);
+    const dtEnd = formatIcsDateTime(year, month, day, endHour, minute);
     
     const isHorrorClub = ev.source.toLowerCase().includes('horror');
     const summary = escapeIcs(ev.movie);
@@ -137,8 +144,8 @@ function generateIcs(events) {
     lines.push(
       'BEGIN:VEVENT',
       `UID:${uid}`,
-      `DTSTART;TZID=America/Chicago:${dtStart.replace('Z', '')}`,
-      `DTEND;TZID=America/Chicago:${dtEnd.replace('Z', '')}`,
+      `DTSTART;TZID=America/Chicago:${dtStart}`,
+      `DTEND;TZID=America/Chicago:${dtEnd}`,
       `SUMMARY:${summary}`,
       `DESCRIPTION:${description}`,
       `LOCATION:${location}`,

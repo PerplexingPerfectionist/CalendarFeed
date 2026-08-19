@@ -25,32 +25,32 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:the-matrix-20260821@capitol-bghorror
-DTSTART;TZID=America/Chicago:20260821T110000
-DTEND;TZID=America/Chicago:20260821T130000
+DTSTART;TZID=America/Chicago:20260821T190000
+DTEND;TZID=America/Chicago:20260821T210000
 SUMMARY:The Matrix
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
 BEGIN:VEVENT
 UID:fight-club-with-casting-director-laray-m-20260826@capitol-bghorror
-DTSTART;TZID=America/Chicago:20260826T103000
-DTEND;TZID=America/Chicago:20260826T123000
+DTSTART;TZID=America/Chicago:20260826T183000
+DTEND;TZID=America/Chicago:20260826T203000
 SUMMARY:Fight Club with Casting Director Laray Mayfield
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
 BEGIN:VEVENT
 UID:night-of-the-living-dead-1990-with-bg-ho-20260908@capitol-bghorror
-DTSTART;TZID=America/Chicago:20260908T110000
-DTEND;TZID=America/Chicago:20260908T130000
+DTSTART;TZID=America/Chicago:20260908T190000
+DTEND;TZID=America/Chicago:20260908T210000
 SUMMARY:Night of the Living Dead (1990) with BG Horror Club
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
 BEGIN:VEVENT
 UID:who-framed-roger-rabbit-subtitled-20260914@capitol-bghorror
-DTSTART;TZID=America/Chicago:20260914T103000
-DTEND;TZID=America/Chicago:20260914T123000
+DTSTART;TZID=America/Chicago:20260914T183000
+DTEND;TZID=America/Chicago:20260914T203000
 SUMMARY:Who Framed Roger Rabbit? (Subtitled)
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
