@@ -55,4 +55,36 @@ SUMMARY:Who Framed Roger Rabbit? (Subtitled)
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
+BEGIN:VEVENT
+UID:inferno-with-bg-horror-club-20261004@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261004T183000
+DTEND;TZID=America/Chicago:20261004T203000
+SUMMARY:Inferno with BG Horror Club
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:the-exorcist-with-bg-horror-club-20261028@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261028T183000
+DTEND;TZID=America/Chicago:20261028T203000
+SUMMARY:The Exorcist with BG Horror Club
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:ernest-scared-stupid-with-bg-horror-club-20261030@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261030T170000
+DTEND;TZID=America/Chicago:20261030T190000
+SUMMARY:Ernest Scared Stupid with BG Horror Club
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:the-evil-dead-with-bg-horror-club-20261030@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261030T190000
+DTEND;TZID=America/Chicago:20261030T210000
+SUMMARY:The Evil Dead with BG Horror Club
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
 END:VCALENDAR
