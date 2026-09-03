@@ -71,4 +71,52 @@ SUMMARY:The Evil Dead with BG Horror Club
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
+BEGIN:VEVENT
+UID:time-enough-at-last-twilight-zone-with-b-20261117@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261117T180000
+DTEND;TZID=America/Chicago:20261117T200000
+SUMMARY:Time Enough At Last (Twilight Zone) with BG Horror Club
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:the-hitch-hiker-twilight-zone-with-bg-ho-20261117@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261117T183000
+DTEND;TZID=America/Chicago:20261117T203000
+SUMMARY:The Hitch-hiker (Twilight Zone) with BG Horror Club
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:eye-of-the-beholder-twilight-zone-with-b-20261117@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261117T190000
+DTEND;TZID=America/Chicago:20261117T210000
+SUMMARY:Eye of the Beholder (Twilight Zone) with BG Horror Club
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:the-monsters-are-due-on-maple-street-twi-20261117@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261117T193000
+DTEND;TZID=America/Chicago:20261117T213000
+SUMMARY:The Monsters Are Due on Maple Street (Twilight Zone) with BG Horror Club
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:living-doll-twilight-zone-with-bg-horror-20261117@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261117T200000
+DTEND;TZID=America/Chicago:20261117T220000
+SUMMARY:Living Doll (Twilight Zone) with BG Horror Club
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:nightmare-at-20-000-feet-twilight-zone-w-20261117@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261117T203000
+DTEND;TZID=America/Chicago:20261117T223000
+SUMMARY:Nightmare at 20\,000 Feet (Twilight Zone) with BG Horror Club
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
 END:VCALENDAR
