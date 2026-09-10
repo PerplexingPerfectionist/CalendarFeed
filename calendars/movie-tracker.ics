@@ -24,14 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:night-of-the-living-dead-1990-with-bg-ho-20260908@capitol-bghorror
-DTSTART;TZID=America/Chicago:20260908T190000
-DTEND;TZID=America/Chicago:20260908T210000
-SUMMARY:Night of the Living Dead (1990) with BG Horror Club
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
 UID:who-framed-roger-rabbit-subtitled-20260914@capitol-bghorror
 DTSTART;TZID=America/Chicago:20260914T183000
 DTEND;TZID=America/Chicago:20260914T203000
@@ -40,10 +32,66 @@ DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
 BEGIN:VEVENT
+UID:creature-from-the-black-lagoon-subtitled-20261005@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261005T183000
+DTEND;TZID=America/Chicago:20261005T203000
+SUMMARY:Creature from the Black Lagoon (Subtitled)
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:jennifer-s-body-20261007@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261007T183000
+DTEND;TZID=America/Chicago:20261007T203000
+SUMMARY:Jennifer's Body
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:halloween-20261009@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261009T183000
+DTEND;TZID=America/Chicago:20261009T203000
+SUMMARY:Halloween
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:halloween-20261009@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261009T210000
+DTEND;TZID=America/Chicago:20261009T230000
+SUMMARY:Halloween
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
 UID:inferno-with-bg-horror-club-20261004@capitol-bghorror
-DTSTART;TZID=America/Chicago:20261004T183000
-DTEND;TZID=America/Chicago:20261004T203000
+DTSTART;TZID=America/Chicago:20261004T190000
+DTEND;TZID=America/Chicago:20261004T210000
 SUMMARY:Inferno with BG Horror Club
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:the-addams-family-20261023@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261023T200000
+DTEND;TZID=America/Chicago:20261023T220000
+SUMMARY:The Addams Family
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:the-lost-boys-20261025@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261025T180000
+DTEND;TZID=America/Chicago:20261025T200000
+SUMMARY:The Lost Boys
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:a-nightmare-on-elm-street-20261025@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261025T200000
+DTEND;TZID=America/Chicago:20261025T220000
+SUMMARY:A Nightmare on Elm Street
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
@@ -116,6 +164,14 @@ UID:nightmare-at-20-000-feet-twilight-zone-w-20261117@capitol-bghorror
 DTSTART;TZID=America/Chicago:20261117T203000
 DTEND;TZID=America/Chicago:20261117T223000
 SUMMARY:Nightmare at 20\,000 Feet (Twilight Zone) with BG Horror Club
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:jurassic-park-20261125@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261125T183000
+DTEND;TZID=America/Chicago:20261125T203000
+SUMMARY:Jurassic Park
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
