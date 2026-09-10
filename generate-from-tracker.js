@@ -88,6 +88,19 @@ function parseDateTime(dateStr, timeStr) {
 }
 
 function generateIcs(events) {
+  // Detect same-title, same-date collisions and disambiguate
+  const eventKey = (ev) => {
+    const parsed = parseDateTime(ev.dateStr, ev.timeStr);
+    if (!parsed) return null;
+    return `${ev.movie.trim()}|${parsed.year}${String(parsed.month + 1).padStart(2, '0')}${String(parsed.day).padStart(2, '0')}`;
+  };
+
+  const counts = new Map();
+  for (const ev of events) {
+    const key = eventKey(ev);
+    if (key) counts.set(key, (counts.get(key) || 0) + 1);
+  }
+
   const lines = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
@@ -133,7 +146,14 @@ function generateIcs(events) {
     const dtEnd = formatIcsDateTime(year, month, day, endHour, minute);
     
     const isHorrorClub = ev.source.toLowerCase().includes('horror');
-    const summary = escapeIcs(ev.movie);
+    const key = eventKey(ev);
+    const isDuplicate = key && counts.get(key) > 1;
+    const summaryBase = ev.movie.trim();
+    // If duplicate and title doesn't already have a year in parens, append time
+    const hasYearInTitle = /\(\d{4}\)/.test(summaryBase);
+    const summary = (isDuplicate && !hasYearInTitle)
+      ? escapeIcs(`${summaryBase} (${ev.timeStr})`)
+      : escapeIcs(summaryBase);
     const description = escapeIcs(
       isHorrorClub 
         ? `BG Horror Club screening at Capitol Theatre\nSource: BG Horror Club`

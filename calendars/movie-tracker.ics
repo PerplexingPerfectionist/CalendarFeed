@@ -48,18 +48,18 @@ DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
 BEGIN:VEVENT
-UID:halloween-20261009@capitol-bghorror
+UID:halloween-1978-20261009@capitol-bghorror
 DTSTART;TZID=America/Chicago:20261009T183000
 DTEND;TZID=America/Chicago:20261009T203000
-SUMMARY:Halloween
+SUMMARY:Halloween (1978)
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
 BEGIN:VEVENT
-UID:halloween-20261009@capitol-bghorror
+UID:halloween-2018-20261009@capitol-bghorror
 DTSTART;TZID=America/Chicago:20261009T210000
 DTEND;TZID=America/Chicago:20261009T230000
-SUMMARY:Halloween
+SUMMARY:Halloween (2018)
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
