@@ -24,14 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:who-framed-roger-rabbit-subtitled-20260914@capitol-bghorror
-DTSTART;TZID=America/Chicago:20260914T183000
-DTEND;TZID=America/Chicago:20260914T203000
-SUMMARY:Who Framed Roger Rabbit? (Subtitled)
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
 UID:creature-from-the-black-lagoon-subtitled-20261005@capitol-bghorror
 DTSTART;TZID=America/Chicago:20261005T183000
 DTEND;TZID=America/Chicago:20261005T203000
