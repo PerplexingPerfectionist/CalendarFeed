@@ -72,17 +72,17 @@ DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
 BEGIN:VEVENT
-UID:the-lost-boys-20261025@capitol-bghorror
-DTSTART;TZID=America/Chicago:20261025T180000
-DTEND;TZID=America/Chicago:20261025T200000
+UID:the-lost-boys-20261024@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261024T180000
+DTEND;TZID=America/Chicago:20261024T200000
 SUMMARY:The Lost Boys
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
 BEGIN:VEVENT
-UID:a-nightmare-on-elm-street-20261025@capitol-bghorror
-DTSTART;TZID=America/Chicago:20261025T200000
-DTEND;TZID=America/Chicago:20261025T220000
+UID:a-nightmare-on-elm-street-20261024@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261024T200000
+DTEND;TZID=America/Chicago:20261024T220000
 SUMMARY:A Nightmare on Elm Street
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
