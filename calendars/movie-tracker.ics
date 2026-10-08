@@ -24,30 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:inferno-with-bg-horror-club-20261004@capitol-bghorror
-DTSTART;TZID=America/Chicago:20261004T190000
-DTEND;TZID=America/Chicago:20261004T210000
-SUMMARY:Inferno with BG Horror Club
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
-UID:creature-from-the-black-lagoon-subtitled-20261005@capitol-bghorror
-DTSTART;TZID=America/Chicago:20261005T183000
-DTEND;TZID=America/Chicago:20261005T203000
-SUMMARY:Creature from the Black Lagoon (Subtitled)
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
-UID:jennifer-s-body-20261007@capitol-bghorror
-DTSTART;TZID=America/Chicago:20261007T183000
-DTEND;TZID=America/Chicago:20261007T203000
-SUMMARY:Jennifer's Body
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
 UID:halloween-1978-20261009@capitol-bghorror
 DTSTART;TZID=America/Chicago:20261009T183000
 DTEND;TZID=America/Chicago:20261009T203000
