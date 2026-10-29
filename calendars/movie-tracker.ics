@@ -24,46 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:the-addams-family-20261023@capitol-bghorror
-DTSTART;TZID=America/Chicago:20261023T200000
-DTEND;TZID=America/Chicago:20261023T220000
-SUMMARY:The Addams Family
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
-UID:the-lost-boys-20261024@capitol-bghorror
-DTSTART;TZID=America/Chicago:20261024T180000
-DTEND;TZID=America/Chicago:20261024T200000
-SUMMARY:The Lost Boys
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
-UID:a-nightmare-on-elm-street-20261024@capitol-bghorror
-DTSTART;TZID=America/Chicago:20261024T200000
-DTEND;TZID=America/Chicago:20261024T220000
-SUMMARY:A Nightmare on Elm Street
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
-UID:hauntedween-with-bg-horror-club-trivia-20261025@capitol-bghorror
-DTSTART;TZID=America/Chicago:20261025T183000
-DTEND;TZID=America/Chicago:20261025T203000
-SUMMARY:HauntedWeen with BG Horror Club (trivia)
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
-UID:the-exorcist-with-bg-horror-club-20261028@capitol-bghorror
-DTSTART;TZID=America/Chicago:20261028T183000
-DTEND;TZID=America/Chicago:20261028T203000
-SUMMARY:The Exorcist with BG Horror Club
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
 UID:ernest-scared-stupid-with-bg-horror-club-20261030@capitol-bghorror
 DTSTART;TZID=America/Chicago:20261030T170000
 DTEND;TZID=America/Chicago:20261030T190000
