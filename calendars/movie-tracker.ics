@@ -24,22 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ernest-scared-stupid-with-bg-horror-club-20261030@capitol-bghorror
-DTSTART;TZID=America/Chicago:20261030T170000
-DTEND;TZID=America/Chicago:20261030T190000
-SUMMARY:Ernest Scared Stupid with BG Horror Club
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
-UID:the-evil-dead-with-bg-horror-club-20261030@capitol-bghorror
-DTSTART;TZID=America/Chicago:20261030T190000
-DTEND;TZID=America/Chicago:20261030T210000
-SUMMARY:The Evil Dead with BG Horror Club
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
 UID:time-enough-at-last-twilight-zone-with-b-20261117@capitol-bghorror
 DTSTART;TZID=America/Chicago:20261117T180000
 DTEND;TZID=America/Chicago:20261117T200000
@@ -92,6 +76,30 @@ UID:jurassic-park-20261125@capitol-bghorror
 DTSTART;TZID=America/Chicago:20261125T183000
 DTEND;TZID=America/Chicago:20261125T203000
 SUMMARY:Jurassic Park
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:home-alone-subtitled-20261207@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261207T183000
+DTEND;TZID=America/Chicago:20261207T203000
+SUMMARY:Home Alone (Subtitled)
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:edward-scissorhands-20261219@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261219T170000
+DTEND;TZID=America/Chicago:20261219T190000
+SUMMARY:Edward Scissorhands
+DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
+LOCATION:Capitol Theatre\, Bowling Green\, KY
+END:VEVENT
+BEGIN:VEVENT
+UID:eternal-sunshine-of-the-spotless-mind-20261230@capitol-bghorror
+DTSTART;TZID=America/Chicago:20261230T183000
+DTEND;TZID=America/Chicago:20261230T203000
+SUMMARY:Eternal Sunshine of the Spotless Mind
 DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
 LOCATION:Capitol Theatre\, Bowling Green\, KY
 END:VEVENT
