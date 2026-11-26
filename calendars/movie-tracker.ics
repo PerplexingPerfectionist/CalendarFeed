@@ -24,14 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:jurassic-park-20261125@capitol-bghorror
-DTSTART;TZID=America/Chicago:20261125T183000
-DTEND;TZID=America/Chicago:20261125T203000
-SUMMARY:Jurassic Park
-DESCRIPTION:Capitol Theatre screening\nSource: Capitol Theatre calendar
-LOCATION:Capitol Theatre\, Bowling Green\, KY
-END:VEVENT
-BEGIN:VEVENT
 UID:home-alone-subtitled-20261207@capitol-bghorror
 DTSTART;TZID=America/Chicago:20261207T183000
 DTEND;TZID=America/Chicago:20261207T203000
